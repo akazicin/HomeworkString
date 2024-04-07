@@ -3,15 +3,15 @@ public class Main {
 
         //task1
 
-        var firsName = "Ivan";
-        var middName = "Ivanovich";
-        var lastName = " Ivanov";
-        var fullName = firsName + " " + middName + " " + lastName;
+        var firstName = "Ivan";
+        var middlName = "Ivanovich";
+        var lastName = "Ivanov";
+        var fullName = firstName + " " + middlName + " " + lastName;
         System.out.println(fullName);
 
         //task2
 
-        System.out.println(fullName.toUpperCase());
+        System.out.println(" Ф. И. О. сотрудника " + fullName.toUpperCase());
 
         //task3
         fullName = "Иванов Семён Семёнович";
